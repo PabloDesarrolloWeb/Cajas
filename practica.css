@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+        font-family: Tahoma;
+}
+img{
+    width: 200px;
+
+}
+section{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    margin-top: 70px;
+border: solid 2px black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    
+   
+}
+button{
+    padding: 7px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    background-color: coral;
+    color: white;
+
+}
+#content{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
